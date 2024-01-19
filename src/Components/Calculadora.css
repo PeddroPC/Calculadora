@@ -1,0 +1,30 @@
+.card-container{
+    background-color: rgba(0, 0, 0, 0.349);
+    border: 1px solid black;
+    border-radius: 6px;
+    width: 300px;
+    height: auto;
+    padding: 10px;
+}
+.card-container textarea{
+    width: 290px;
+    height: 45px;
+    resize: none;
+    border: 1px solid black;
+    border-radius: 6px;
+    background-color: rgb(105, 138, 56);
+    margin-bottom: 5px;
+    font-size: 37px;
+    text-align: right;
+}
+.display{
+    border-bottom: 3px solid rgba(255, 255, 255, 0.274);
+    width: 295px;
+}
+.buttons{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 10px;
+    margin-top: 15px;
+}
